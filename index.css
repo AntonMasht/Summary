@@ -1,0 +1,77 @@
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background: #b5371a1a;
+}
+
+p,
+h1,
+h1,
+h3,
+h4,
+h5,
+h5 {
+  margin: 10px 0;
+}
+
+.app {
+  padding: 0 10%;
+}
+
+.photo-container {
+  width: 45%;
+  display: flex;
+  padding: 0 20px;
+}
+
+hr {
+  border: 0;
+  border-bottom: 1px solid rgb(81, 74, 94);
+}
+
+li {
+  margin: 0 0 10px;
+}
+
+li::marker {
+  color: rgb(81, 74, 94);
+}
+
+.photo {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  object-position: top;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.title-container {
+  width: 45%;
+  text-transform: uppercase;
+  text-align: right;
+  padding: 0 20px;
+}
+
+.information-container {
+  width: 55%;
+  padding: 0 20px;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+h4 {
+  color: rgb(22, 15, 22, 1);
+}
+
+section {
+  display: flex;
+}
